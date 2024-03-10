@@ -2,7 +2,8 @@ import React from 'react'
 import './myprojects.css'
 import IMG1 from '../../assets/img5.jpg'
 import IMG2 from '../../assets/img2.png'
-import IMG4 from '../../assets/portfolio-img.png'
+import IMG3 from '../../assets/portfolio-img.png'
+import IMG4 from '../../assets/resume-img.png'
 
 const Myprojects = () => {
   return (
@@ -37,13 +38,13 @@ const Myprojects = () => {
         </article>
         <article className='portfolio__item'>
             <div className="portfolio__item-image">
-                <img src={IMG4} alt="" />
+                <img src={IMG3} alt="" />
             </div>
             <h3>My Portfolio(This website)</h3>
             <small className='text-light'>HTML | CSS | Bootstrap | ReactJs</small>
             <div className="portfolio__item-cta">
-              <a href="https://github.com/Thakshila-Bandara/my-portfolio" target="_blank" rel='noreferrer' className='btn'>Github</a>
-              <a href="https://thakshila-bandara.github.io/my-portfolio/" target="_blank" rel='noreferrer' className='btn btn-primary'>Visit Website</a>  
+              <a href="https://github.com/ranjandey/my-portfolio" target="_blank" rel='noreferrer' className='btn'>Github</a>
+              <a href="https://ranjandey.github.io/my-portfolio/" target="_blank" rel='noreferrer' className='btn btn-primary'>Visit Website</a>  
             </div>
             
         </article>
@@ -54,8 +55,8 @@ const Myprojects = () => {
             <h3>My Resume</h3>
             <small className='text-light'>HTML | CSS | JS | Bootstrap</small>
             <div className="portfolio__item-cta">
-              <a href="https://github.com/Thakshila-Bandara/my-resume" target="_blank" rel='noreferrer' className='btn'>Github</a>
-              <a href="https://thakshila-bandara.github.io/my-resume/" target="_blank" rel='noreferrer' className='btn btn-primary'>Visit Website</a>  
+              <a href="https://github.com/ranjandey/my-resume" target="_blank" rel='noreferrer' className='btn'>Github</a>
+              <a href="https://ranjandey.github.io/my-resume/" target="_blank" rel='noreferrer' className='btn btn-primary'>Visit Website</a>  
             </div>
             
         </article>
